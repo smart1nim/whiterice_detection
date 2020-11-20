@@ -1,0 +1,26 @@
+<annotation>
+	<folder>croped_rice</folder>
+	<filename>Image00022.jpg</filename>
+	<path>/home/minty12/Downloads/croped_rice/Image00022.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>153</xmin>
+			<ymin>61</ymin>
+			<xmax>343</xmax>
+			<ymax>420</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -105,7 +105,7 @@ cfg.DATASETS.TEST = ()   # no metrics implemented for this dataset
 cfg.DATALOADER.NUM_WORKERS = 6
 cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_101_FPN_3x.yaml")
 cfg.SOLVER.IMS_PER_BATCH = 3
-cfg.SOLVER.MAX_ITER = 300
+cfg.SOLVER.MAX_ITER = 1000
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
 
 os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
